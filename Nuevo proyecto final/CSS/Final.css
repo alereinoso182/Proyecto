@@ -1,0 +1,96 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+
+#columna1 {
+    position:absolute;
+    top:0px;
+    left:0px;
+    margin-top:10px;
+    background-color:rgba(0, 255, 255, 0.437);
+    }
+#columna2 {
+    position: absolute;
+    margin-left:520px;
+    margin-right:20px;
+    margin-top:10px;
+    background-color:white;
+}
+#Foto img{
+    z-index: 100;
+    background-position: 0%;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: -250px;
+    margin-left: 94px;
+    padding: 67px;
+    margin: 30px;
+}
+
+
+
+#Contactos{
+    width: 230px;
+    border: 15px solid rgb(28, 41, 28);
+    padding: 67px;
+    margin: 30px;
+}
+
+#Habilidades{
+    width: 265px;
+    border: 15px solid rgb(28, 41, 28);
+    padding: 67px;
+    margin: 30px;
+}
+#Idiomas{
+    width: 265px;
+    border: 15px solid rgb(28, 41, 28);
+    padding: 67px;
+    margin: 30px;
+}
+#Sofware{
+    width: 265px;
+    border: 15px solid rgb(28, 41, 28);
+    padding: 67px;
+    margin: 30px;
+}
+#Nombre{
+    
+    font-weight: 800;
+    font-size: xx-large;
+    border: 15px solid rgb(28, 41, 28);
+    padding: 67px;
+    margin: 30px;
+    margin-left: 40px;
+    font-family: 'Lilita One', cursive;
+}
+#Perfil{
+    border: 15px solid rgb(28, 41, 28);
+    padding: 67px;
+   
+}
+#Educacion {
+    border: 15px solid rgb(28, 41, 28);
+    padding: 67px;
+}
+#Experiencia {
+    border: 15px solid rgb(28, 41, 28);
+    padding: 67px;
+}
+#h2{
+    font
+}
+
+@media screen and (max-width:600px) {
+
+    #columna1 {
+   
+       background-color: green;
+    } 
+       
+   }
