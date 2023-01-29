@@ -1,0 +1,33 @@
+/*{
+
+}
+*/
+
+body {
+    
+    background-color: whitesmoke;
+}
+
+img {
+    z-index: 100;
+    background-position: 0%;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: -250px;
+    margin-left: 94px;
+}
+div#top_izq { 
+    border-left: 400px solid  rgb(1 52 99);
+    border-bottom: 150px solid transparent;
+    border-right: 177px;
+    border-top: 1000px;
+    height: 53px;
+}
+div#top_der{
+    border-right: 1520px solid #e0eaf6;
+    border-bottom: 147px solid transparent;
+    height: 54px;
+}
