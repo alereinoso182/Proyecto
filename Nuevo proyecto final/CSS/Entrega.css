@@ -107,9 +107,13 @@ body{
     border-bottom: 3px solid white;
 }
 .sofware{
+    position: relative;
+    width: 100%;
+    display: grid;
     letter-spacing: 1px;
     margin-bottom: 20px;
     border-bottom: 3px solid white;
+    
 }
 
 .contenedor .derecho{
@@ -178,15 +182,27 @@ body{
 .derecho .info{
     border-bottom: 5px solid rgb(0, 0, 0)
 }
-@media (max-width:1000px){
+
+#saludo{
+    font-family: 'Lilita One', cursive;
+    font-size: 20px;
+    
+}
+}
+@media only screen and (max-width:1000px){
     .contenedor{
         margin:10px;
         grid-template-columns: repeat(1,1fr);
-
     }
-}
-@media (max-width:600px){
     
-
 }
+@media only screen and (max-width: 600px) {
+    .contenedor .izquierdo {
+      background-color: lightblue;
+    }
+    .contenedor .derecho{
+        background: rgb(161 136 205 / 86%);
+    }
+  }
+
 
